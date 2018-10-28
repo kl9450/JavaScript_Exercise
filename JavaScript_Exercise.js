@@ -71,3 +71,14 @@ console.log(x);
 
 // For the purposes of this exercise, mid-word punctuation counts towards the character limit of a word.
 // e.g: "it's / I'm" should become: "t's / I'M"
+var str = "Life isn't always easy as a small word amongst big words.";
+var string = str.split("");
+for(var i=0; i<string.length; i++>){
+	if(string[i].length < 4){
+		string[i] = string [i].toUpperCase();
+	}
+	else{
+		string[i] = string [i].replace(/a|e|i|o|u/gi, "");
+	}
+}
+console.log(string.join (""))
