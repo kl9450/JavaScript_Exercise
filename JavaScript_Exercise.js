@@ -49,9 +49,15 @@ console.log(numbers);
 // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
 
 // write your function here
+function checkInclude(arr) {
+	x = arr.include(4);
 
+	return x;
+}
 // call your function here
-
+var arr = [1,2,3,4];
+var x = checkInclude(arr);
+console.log(x);
 // 4. Bonus Exercise
 // Life isn't always easy as a small word amongst big words. If only they had a code warrior to help them out...
 
