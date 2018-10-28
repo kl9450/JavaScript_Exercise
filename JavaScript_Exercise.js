@@ -31,9 +31,19 @@ console.log(pos_to_neg(15));
 // For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 
 // write your function here
-
+function doubleArray(number) {
+	var nums = [];
+	for(var i=0; i<numbers.length; i++) {
+		//take the constant facto as 2
+		nums[i] = numbers[i] * 2;
+	}
+	return nums;
+}
 // call your function here
+var numbers = [1,2,3,4];
+numbers = doubleArray(numbers);
 
+console.log(numbers);
 
 // 3. You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
 // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
